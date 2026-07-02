@@ -1,0 +1,19 @@
+[project]
+name = "medical-fuzzy-analyzer"
+version = "0.1.0"
+description = "Medical review quality analyzer using fuzzy logic and NLP"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.35.0",
+    "scikit-fuzzy>=0.4.2",
+    "sqlalchemy>=2.0.0",
+    "pandas>=2.0.0",
+    "plotly>=5.20.0",
+    "numpy>=1.26.0",
+    "scipy>=1.11.0",
+    "networkx>=3.0",
+    "openpyxl>=3.1.0",
+    "sentence-transformers>=5.4.1",
+    "transformers>=5.7.0",
+]
